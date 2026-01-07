@@ -1,0 +1,112 @@
+# TruthEngine™ Canon
+
+This document defines the immutable principles and constraints that govern all TruthEngine™ systems.
+
+Anything that violates this canon is not TruthEngine™.
+
+---
+
+## Purpose
+
+TruthEngine™ exists to enforce truth, not availability.
+
+Systems built on TruthEngine™ principles prioritize:
+- verification over convenience
+- integrity over uptime
+- correctness over recovery
+
+If trust cannot be proven, the system must stop.
+
+---
+
+## Canonical Principles
+
+### 1. Trust Is Proven, Not Assumed
+No system, user, network, or component is trusted by default.
+Trust must be established through verification at the point of use.
+
+---
+
+### 2. Untrusted Layers Are Made Irrelevant
+If a layer cannot be trusted, it must not influence system integrity.
+
+Untrusted transport, infrastructure, or identity signals are treated as hostile and bypassed or cryptographically constrained.
+
+---
+
+### 3. Systems Must Fail Closed
+When verification fails, the system halts.
+
+There is no graceful degradation when integrity is uncertain.
+Continuing in an unknown state is considered a failure.
+
+---
+
+### 4. Integrity Precedes Availability
+A system that is available but unverified is insecure by definition.
+
+Availability is optional.
+Integrity is not.
+
+---
+
+### 5. Presence Must Be Intentional
+Access and authority require deliberate action.
+
+Passive signals are insufficient.
+Intent must be observable and verifiable.
+
+---
+
+### 6. Behavior Is a Stronger Signal Than Identity
+Identity can be forged.
+Behavior is harder to fake consistently.
+
+TruthEngine™ systems privilege behavioral validation over static identifiers.
+
+---
+
+### 7. Enforcement Occurs at the First Trusted Boundary
+Security is enforced as early as possible.
+
+Untrusted input must never propagate inward.
+Verification happens before processing, not after damage.
+
+---
+
+### 8. Determinism Over Ambiguity
+TruthEngine™ systems favor deterministic outcomes.
+
+When uncertainty cannot be resolved, the system must choose denial over guesswork.
+
+---
+
+## Architectural Consequences
+
+As a result of this canon:
+
+- Attack surfaces are minimized, not monitored
+- Logging supports enforcement, not justification
+- Recovery requires re-verification, not rollback
+- Silence is preferred to noisy failure
+- Explicit unlocks replace implicit access
+
+---
+
+## Canon Enforcement
+
+Any system claiming to implement TruthEngine™ principles must adhere to this canon.
+
+Violations indicate either:
+- misunderstanding
+- incomplete implementation
+- or misrepresentation
+
+The canon does not evolve casually.
+Changes require deliberate architectural justification.
+
+---
+
+Truth is enforced.
+Trust is proven.
+Nothing proceeds without both.
