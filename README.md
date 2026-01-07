@@ -2,6 +2,10 @@
 
 TruthEngine™ is a systems-level trust and verification engine.
 
+TruthEngine™ is a proprietary system by AD LOFT LLC, conceived and authored by Patrick Anthony Hoglievina.
+
+AD LOFT LLC - https://adloft.co - https://adlandingpro.com - https://truthengine.co
+
 It exists because most modern systems assume trust where none should exist, degrade instead of halt, and rely on identity where behavior would be the stronger signal.
 
 TruthEngine™ takes the opposite approach.
