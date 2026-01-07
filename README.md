@@ -1,36 +1,65 @@
-# truthengine
-TruthEngine™ is a technology platform providing software-based security, verification, and system integrity solutions, including cryptographic validation, behavioral analysis, network protection, fraud prevention logic, and cloud-based verification services for platforms, applications, and systems. AD LOFT LLC - PATRICK ANTHONY HOGLIEVINA
-
 # TruthEngine™
 
-**TruthEngine™** is a systems-level trust, verification, and security engine designed to provide fail-closed architectures, behavioral validation, and cryptographic integrity across networks, software, and distributed platforms.
+TruthEngine™ is a systems-level trust and verification engine.
 
-This repository establishes **authorship, intent, and original design provenance** for the TruthEngine™ concept and its related systems.
+It exists because most modern systems assume trust where none should exist, degrade instead of halt, and rely on identity where behavior would be the stronger signal.
+
+TruthEngine™ takes the opposite approach.
+
+If trust cannot be proven, the system stops.
+If integrity is uncertain, nothing proceeds.
+If a layer cannot be trusted, it is made irrelevant.
+
+This repository establishes the architectural foundation, authorship, and design intent behind TruthEngine™.
+
+---
+
+## What TruthEngine™ Is
+
+TruthEngine™ is not a single product.
+
+It is an engine — a set of principles, constraints, and enforcement patterns for building systems that:
+
+- fail closed instead of degrading
+- enforce cryptographic truth over assumptions
+- treat untrusted layers as hostile by default
+- validate intent through behavior, not identity
+- collapse attack surfaces instead of reacting to them
+
+TruthEngine™ is designed to operate across:
+- network infrastructure
+- cloud and edge logic
+- application security layers
+- verification-aware software systems
+- environments where trust must be explicit
 
 ---
 
 ## Night Architect by TruthEngine™
 
-**Night Architect** is a flagship architecture built on TruthEngine™ principles, focused on:
+Night Architect is the flagship architecture built on TruthEngine™ principles.
 
-- Zero-trust networking
-- Fail-closed security design
-- Cryptographic enforcement over untrusted layers
-- Physical + behavioral presence validation
-- Deterministic system boundaries
-- Attack-surface minimization
+It focuses on:
 
-Night Architect is designed to operate across:
-- Network infrastructure (e.g., OpenWrt-based systems)
-- Cloud logic (e.g., edge workers and filters)
-- Application security layers
-- Verification-aware software systems
+- zero-trust networking
+- deterministic trust boundaries
+- cryptographic enforcement over untrusted transport
+- physical and behavioral presence validation
+- attack-surface minimization by design
+- fail-closed operation at the first trusted boundary
+
+Night Architect is intentionally boring from the outside.
+No exposed services.
+No unnecessary radios.
+No interactive surface unless explicitly allowed.
+
+If something cannot be verified, it simply does not exist.
 
 ---
 
 ## Design Principles
 
-TruthEngine™ systems follow these core principles:
+TruthEngine™ systems follow a small set of non-negotiable rules:
 
 - Trust is proven, not assumed
 - Untrusted layers are made irrelevant
@@ -40,27 +69,33 @@ TruthEngine™ systems follow these core principles:
 - Security is enforced at the first trusted boundary
 - Systems must fail closed, not degraded
 
+These principles are applied consistently, even when it is inconvenient.
+
+Especially then.
+
 ---
 
 ## Status
 
 This repository currently serves as:
 
-- A **design origin record**
-- A **conceptual specification**
-- A **timestamped authorship anchor**
+- a design origin record
+- a conceptual specification
+- a timestamped authorship anchor
 
-Implementation details, specifications, and production code will be added incrementally.
+Implementation details, reference architectures, and production systems will be introduced incrementally.
+
+Silence here does not mean inactivity.
 
 ---
 
-## Authorship & Origin
+## Authorship
 
 TruthEngine™ and Night Architect were conceived and designed by the repository owner.
 
-All concepts herein are original works introduced prior to any third-party implementation or derivative system.
+All concepts documented here represent original systems architecture and design introduced prior to any third-party implementation or derivative work.
 
-Trademark filing for **TruthEngine™** is planned.
+Trademark registration for **TruthEngine™** is planned.
 
 ---
 
@@ -68,4 +103,4 @@ Trademark filing for **TruthEngine™** is planned.
 
 All rights reserved.
 
-No license is granted for commercial or derivative use without explicit permission from the author.
+No license is granted for commercial use, derivative works, or redistribution without explicit written permission from the author.
